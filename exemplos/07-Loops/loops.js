@@ -9,7 +9,12 @@ document.write('<h2 style="color: blue;">Loop While (Checa a condição e então
 // Exemplo 1: while (Checa a condição e então executa)
 
 
-// 1ª Digitação (Aqui)
+let i = 1;
+while (i < 5) {
+    document.write(`O valor de i é: <strong>${i}</strong><br>`);
+    i++;
+    // i = i + 1;
+}
 
 
 document.write(`_____________________________________________<br>`);
@@ -19,7 +24,11 @@ document.write('<h2 style="color: blue;">Loop Do/While (Ele executa pelo menos 1
 // Exemplo 2: do/while (Ele executa pelo menos 1 vez e checa a condição para ver se continua)
 
 
-// 2ª Digitação (Aqui)
+let j = 1;
+do {
+    document.write(`O valor de j é: <strong>${j}</strong><br>`);
+    j++;
+} while (j <=3);
 
 
 // Exemplo 3: for
@@ -30,7 +39,9 @@ document.write('<h2 style="color: blue;">Loop For (Executa um bloco com base em 
 // for (inicialização; condição; incremento/decremento) 
 
 
-// 3ª Digitação (Aqui)
+for (let k= 1; k<=8; k++) {
+    document.write(`O valor de k é: <strong>${k}</strong><br>`);
+}
 
 
 document.write(`_____________________________________________<br>`);
@@ -45,6 +56,8 @@ let carros = [
 // Cache do tamanho array
 let tamanho = carros.length;
 
-// 4ª Digitação (Aqui)
+for (leti = 0; i < tamanho; i++) {
+    document.write(`O valor de carros[${i}] é: <strong>${carros[i]}</strong><br>`);
+}
 
 
