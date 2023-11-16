@@ -87,7 +87,7 @@ function verificaSituacao(media) {
     if (media >= 7) {
         return 'Aprovado';
     } else {
-        return 'Reprovado';
+        return 'Reprovado'
     }
 }
 
